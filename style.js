@@ -200,10 +200,10 @@ gradientHoverV.addColorStop(1, '#e79aaf');
 var bar_chart_v = new Chart(bar_ctx_v, {
     type: 'bar',
     data: {
-        labels: ["M Y S Q L", "M O N G O D B", "P H P", "J A V A S C R I P T", "P Y T H O N", "C"],
+        labels: ["M Y S Q L", "M O N G O D B", "J A V A S C R I P T", "C"],
         datasets: [{
             label: "S K I L L  S C O R E",
-            data: [99, 99, 80, 90, 80, 85],
+            data: [70, 85, 80, 90,],
             backgroundColor: gradientColorV,
             hoverBackgroundColor: gradientHoverV,
             hoverBorderWidth: 2,
@@ -291,10 +291,9 @@ gradientHoverH.addColorStop(1, '#e79aaf');
 var bar_chart_h = new Chart(bar_ctx_h, {
     type: 'horizontalBar',
     data: {
-        labels: ["M Y S Q L", "M O N G O D B", "P H P", "J A V A S C R I P T", "P Y T H O N", "C"],
-        datasets: [{
+        labels: ["M Y S Q L", "M O N G O D B", "J A V A S C R I P T", "C"],
             label: "S K I L L  S C O R E",
-            data: [99, 99, 80, 90, 80, 85],
+            data: [70, 85, 80, 90,],
             backgroundColor: gradientColorH,
             hoverBackgroundColor: gradientHoverH,
             hoverBorderWidth: 1,
@@ -384,10 +383,10 @@ gradientHoverV.addColorStop(1, '#e79aaf');
 var bar_chart_v = new Chart(bar_ctx_v, {
     type: 'bar',
     data: {
-        labels: ["W O R D P R E S S", "B L O G G E R", "S H O P I F Y", "D R U P A L", "M A G E N T O"],
+        labels: ["W O R D P R E S S", "B L O G G E R", "S H O P I F Y"],
         datasets: [{
             label: "S K I L L  S C O R E",
-            data: [70, 70, 60, 60, 60],
+            data: [70, 70, 60],
             backgroundColor: gradientColorV,
             hoverBackgroundColor: gradientHoverV,
             hoverBorderWidth: 2,
@@ -475,10 +474,10 @@ gradientHoverH.addColorStop(1, '#e79aaf');
 var bar_chart_h = new Chart(bar_ctx_h, {
     type: 'horizontalBar',
     data: {
-        labels: ["W O R D P R E S S", "B L O G G E R", "S H O P I F Y", "D R U P A L", "M A G E N T O"],
+        labels: ["W O R D P R E S S", "B L O G G E R", "S H O P I F Y"],
         datasets: [{
             label: "S K I L L  S C O R E",
-            data: [70, 70, 60, 60, 60],
+            data: [70, 70, 60],
             backgroundColor: gradientColorH,
             hoverBackgroundColor: gradientHoverH,
             hoverBorderWidth: 1,
